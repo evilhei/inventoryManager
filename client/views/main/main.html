@@ -1,0 +1,16 @@
+<template name="mainLayout">	
+	<head>
+		<title>Draka Scrap management</title>
+	</head>
+	{{#if currentUser}}
+		<h1> Welcome, Meteor is cool</h1>
+	{{else}}
+		{{> loginButtons}}
+	{{/if}}
+	<div class="container">
+		<div class="row">
+			something else
+		</div>
+	</div>
+</template>
+
